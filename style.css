@@ -43,20 +43,27 @@
   display: flex;
 }
 
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
 
-.task__item, .task__title {
+.task__item,
+.task__title {
   list-style: none;
 }
 
-.task__item--input, .add, .delete, .edit {
+.task__item--input,
+.add,
+.delete,
+.edit {
   outline: none;
 }
 
-.add, .delete, .edit {
+.add,
+.delete,
+.edit {
   background: none;
   border: 0px;
   color: #888;
@@ -66,7 +73,9 @@
   cursor: pointer;
 }
 
-.add, .delete, .edit :hover {
+.add,
+.delete,
+.edit :hover {
   color: #3a3A3a;
 }
 
